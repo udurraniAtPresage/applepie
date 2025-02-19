@@ -1,0 +1,67 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://ggseg.r-universe.dev/api/ls
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      Date: Wed, 19 Feb 2025 19:52:55 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      x-powered-by: Express
+      Cache-Control: public, max-age=60, stale-while-revalidate=60
+      etag: W/"67b4188a4083faa45647766b"
+      last-modified: Tue, 18 Feb 2025 05:20:10 GMT
+      access-control-allow-origin: '*'
+      x-runiverse-cache: MISS
+      CF-Cache-Status: REVALIDATED
+      Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Ym1izxy6KTrcUDg7qrk%2BYs%2FU1LQ3HHbdVF92%2FQpknGZRs1w5yCIWiKasNu4B58OJe1%2FGIxBX9ZqWtw88X8Fk41GDw7r3MB9LFfUPxJkzkVMdb2QWILqKdGHM5P2%2FV0g4%2F1F2XTG66jfOdAfNcpORZCGuvw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Vary: Accept-Encoding
+      Server: cloudflare
+      CF-RAY: 9148ccd00a203a0b-YYZ
+      Content-Encoding: gzip
+      server-timing: cfL4;desc="?proto=TCP&rtt=24928&min_rtt=23909&rtt_var=11004&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2835&recv_bytes=505&delivery_rate=127249&cwnd=252&unsent_bytes=0&cid=a272b37c08bf06ff&ts=401&x=0"
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        [
+          "freesurfer",
+          "ggseg",
+          "ggseg3d",
+          "ggsegAal",
+          "ggsegAicha",
+          "ggsegArslan",
+          "ggsegBrainnetome",
+          "ggsegBrodmann",
+          "ggsegCampbell",
+          "ggsegChen",
+          "ggsegDKT",
+          "ggsegDefaultExtra",
+          "ggsegDesterieux",
+          "ggsegEconomo",
+          "ggsegExtra",
+          "ggsegFlechsig",
+          "ggsegGlasser",
+          "ggsegGordon",
+          "ggsegHO",
+          "ggsegICBM",
+          "ggsegIca",
+          "ggsegJHU",
+          "ggsegKleist",
+          "ggsegPower",
+          "ggsegSchaefer",
+          "ggsegTracula",
+          "ggsegYeo2011",
+          "rgdal"
+        ]
+  recorded_at: 2025-02-19 19:52:53 GMT
+  recorded_with: vcr/1.6.0, webmockr/2.0.0
