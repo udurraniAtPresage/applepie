@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # applepie
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/udurraniAtPresage/applepie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/udurraniAtPresage/applepie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of applepie is to access R-universe API from R, for a tutorial.

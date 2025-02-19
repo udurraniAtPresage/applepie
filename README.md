@@ -4,6 +4,8 @@
 # applepie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/udurraniAtPresage/applepie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/udurraniAtPresage/applepie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of applepie is to access R-universe API from R, for a tutorial.
@@ -26,6 +28,6 @@ library(applepie)
 ## List packages in the rOpenSci R-universe
 ropensci_universe_pkgs <- get_packages("ropensci")
 head(ropensci_universe_pkgs)
-#> [1] "AntWeb"            "BaseSet"           "CodeDepends"      
-#> [4] "CoordinateCleaner" "DataPackageR"      "DataSpaceR"
+#> [1] "BaseSet"           "CRediTas"          "CoordinateCleaner"
+#> [4] "DataPackageR"      "DataSpaceR"        "DoOR.data"
 ```
